@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  background-color:#FFFFFF ;
+
+}
+
+
+.app__posts{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+
+
+.app_header{
+  width: 100%;
+  background-color:#FAFAFA ;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+ 
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+}
+
+
+.app__headerImage{
+  object-fit: contain;
+  padding: 20px;
+  
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+

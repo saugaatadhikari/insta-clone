@@ -1,0 +1,16 @@
+.imageupload{
+    max-width: 565px;
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 253, 253, 0.767);
+    
+}
+
+.imageUploadprogress{
+    width: 100%;
+}
